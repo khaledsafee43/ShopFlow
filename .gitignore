@@ -1,0 +1,26 @@
+```gitignore
+# Dependencies
+**/node_modules/
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build files
+**/dist/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+**/coverage/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+```
