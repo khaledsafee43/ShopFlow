@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+button,
+a,
+input,
+select,
+textarea {
+  @apply transition;
+}
+.container-page {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+.card {
+  @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+}
+.section-space {
+  @apply py-14 md:py-20;
+}
+
+.active {
+  @apply rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
+}
