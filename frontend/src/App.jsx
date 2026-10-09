@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import { useState } from "react";
+import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 
 export default function App() {
@@ -49,6 +50,8 @@ export default function App() {
           }
         />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
     </>
